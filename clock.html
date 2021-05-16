@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <link
+  href="/static/vendor/bootstrap/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+
+<!-- Custom fonts for this template -->
+<link
+  href="/static/vendor/fontawesome-free/css/all.min.css"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+  rel="stylesheet"
+  type="text/css"
+/>
+
+<!-- Custom styles for this template -->
+<link
+  href="/static/css/clean-blog.min.css"
+  rel="stylesheet"
+/>
+
+<!--<script type='text/javascript' src="/static/js/script.js"></script>-->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+/>
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=-WRRgprcR8Dk72ZVqHb5woJ8m5kfvf4LPGjVPp2wcFwHlAwzkzOOk3PD_1ToSAdShTPoR3C8GsubpIiG-QoA0w" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://me.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9zYXB0YXJzaGktcGVyc29uYWwuaGVyb2t1YXBwLmNvbS8"/><script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+/>
+ <link
+  rel="stylesheet"
+  type="text/css"
+  href="/static/css/card.css"
+/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/static/css/3dbutton.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+/>
+
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/static/css/style.css"
+/>
+
+  <!-- custom adding end  -->
+  <link rel="shortcut icon" href="clock.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="3dbutton.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="card.css" media="screen"/>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./typed.js-master/lib/typed.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/
+     jquery/3.5.1/jquery.min.js">
+    </script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <title herf="clock.png">SS's Time 😎</title>
+  <script>
+    let a;
+    let date;
+    let time;
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    setInterval(() => {
+      a = new Date();
+      date = a.toLocaleDateString(undefined, options);
+      time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+      document.getElementById('time').innerHTML = time + "<br>on " + date;
+    }, 1000);
+  </script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">It's Time to Rock ! 🤟</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://saptarshi-personal.herokuapp.com/" target="_blank">My_Website</a>
+          </li>
+
+          <!-- dropdown menu option  -->
+          <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+
+          <li class="nav-item">
+            <a class="nav-link " href="https://saptarshi-personal.herokuapp.com/contact" target="_blank" tabindex="-1"
+              aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+
+        <!-- search box  -->
+        <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Current time Is: <span id="time"></span></h1>
+      <!-- <p class="lead">We have got you covered. This is a simple hero unit, a simple jumbotron-style component for
+                calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>We are here to show you the time for different countries</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Browse Times</a> -->
+    </div>
+  </div>
+  <!-- <div class="mycontainer">
+    <h1 class="container" style="padding-top: 30px;">
+      It's is time to : <span class="animate" id="typed"></span>
+    </h1>
+  </div> -->
+  <div class="container">
+    <h2 style="padding: 30px;"> It's is time to :
+      <span class="txt-type" data-wait="3000" data-words='["Rock","Play","Care Yourself","Drink", "Party", "Love","Live","listen","Watch","Read","Work","Text Crush","Give Exam","Enjoy","Travel","Patchup","Workout","Cry","Do Assignment","Sing","Eat","Cook","Bath","Code","Chat","Breakup","Call"]'></span>
+    </h2>
+    <div style="padding: 10px; text-align: center; font-size: 20px; ">
+
+<span style="font-size : 20px; padding: 30px;"> <b>Dare for you :</b></span>Take a screenshot and do that 😉 It's Fun !
+    </div>
+    <h4 style="text-align: center; padding-top: 20px; padding-bottom: 100px;">Checkout My <a href="https://saptarshi-personal.herokuapp.com/" target="_blank" >Website</a></h4>
+    <p>
+      Sharing is Caring 💖 Share with your friends 👍 and play this cool dare 😎
+    </p>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12">
+
+    import Typed from 'typed.js';
+    var options = {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 40
+    };
+    var typed3 = new Typed('.animate', {
+      strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
+      typeSpeed: 50,
+      backSpeed: 50,
+      smartBackspace: true, // this is a default
+      loop: true
+    });
+  </script> -->
+
+  <script>
+    class TypeWriter {
+  constructor(txtElement, words, wait = 10) {
+    this.txtElement = txtElement;
+    this.words = words;
+    this.txt = '';
+    this.wordIndex = 0;
+    this.wait = parseInt(wait, 5);
+    this.type();
+    this.isDeleting = false;
+  }
+
+  type() {
+    // Current index of word
+    const current = this.wordIndex % this.words.length;
+    // Get full text of current word
+    const fullTxt = this.words[current];
+
+    // Check if deleting
+    if(this.isDeleting) {
+      // Remove char
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      // Add char
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    // Insert txt into element
+    this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+    // Initial Type Speed
+    let typeSpeed = 3;
+
+    if(this.isDeleting) {
+      typeSpeed /= 2;
+    }
+
+    // If word is complete
+    if(!this.isDeleting && this.txt === fullTxt) {
+      // Make pause at end
+      typeSpeed = this.wait;
+      // Set delete to true
+      this.isDeleting = true;
+    } else if(this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      // Move to next word
+      this.wordIndex++;
+      // Pause before start typing
+      typeSpeed = 500;
+    }
+
+    setTimeout(() => this.type(), typeSpeed);
+  }
+}
+
+
+// Init On DOM Load
+document.addEventListener('DOMContentLoaded', init);
+
+// Init App
+function init() {
+  const txtElement = document.querySelector('.txt-type');
+  const words = JSON.parse(txtElement.getAttribute('data-words'));
+  const wait = txtElement.getAttribute('data-wait');
+  // Init TypeWriter
+  new TypeWriter(txtElement, words, wait);
+}
+  </script>
+
+
+<footer style="
+bottom:0;
+width:100%;
+">
+  <div class="icons" >
+       <a href="https://www.facebook.com/saptarshi.sarkar.3194/" target="_blank">
+          <div class="layer">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span class="fab fa-facebook-f"></span>
+          </div>
+          <div class="text">
+             Facebook
+          </div>
+       </a>
+       <a href="https://twitter.com/IamSS_SS?s=09" target="_blank">
+          <div class="layer">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span class="fab fa-twitter"></span>
+          </div>
+          <div class="text">
+             Twitter
+          </div>
+       </a>
+       <a href="https://www.instagram.com/i__am_ss/" target="_blank">
+          <div class="layer">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span class="fab fa-instagram"></span>
+          </div>
+          <div class="text">
+             Instagram
+          </div>
+       </a>
+       <a href="https://www.linkedin.com/in/saptarshi-sarkar-aa20781b1/"  target="_blank">
+          <div class="layer">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span class="fab fa-linkedin-in"></span>
+          </div>
+          <div class="text">
+             Linkedin
+          </div>
+       </a>
+       <a href="https://youtube.com/channel/UCkCSWT1_Lj1NGkIlNnG49vg" target="_blank">
+          <div class="layer">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span class="fab fa-youtube"></span>
+          </div>
+          <div class="text">
+             YouTube
+          </div>
+       </a>
+       <a href="https://github.com/saptarshisarkar20" target="_blank">
+          <div class="layer">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span class="fab fa-github"></span>
+          </div>
+          <div class="text">
+             GitHub
+          </div>
+       </a>
+    </div>
+    <p>
+    <span 
+      >Created By <a href="https://saptarshi-personal.herokuapp.com/">Saptarshi Sarkar</a> |
+      <span class="far fa-copyright"></span> 2021 All rights reserved.</span
+    >
+    </p>
+  </footer>
+</body>
+
+</html>
